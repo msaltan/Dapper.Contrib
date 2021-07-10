@@ -79,7 +79,7 @@ namespace Dapper.Tests.Contrib
     [Table("Automobiles")]
     public class Car
     {
-        public int Id { get; set; }
+        public int Id { get; set; } 
         public string Name { get; set; }
         [Computed]
         public string Computed { get; set; }
